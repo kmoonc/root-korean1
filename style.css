@@ -1,9 +1,7 @@
-$midnight: #2c3e50;
-$clouds: #ecf0f1;
 // General
 body {
-  color: $midnight;
-  background: $clouds;
+  color: #2c3e50;
+  background: #ecf0f1;
   padding: 0 1em 1em;
 }
 h1 {
@@ -44,12 +42,12 @@ input {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background: $midnight;
+    background: #2c3e50;
     font-weight: bold;
     cursor: pointer;
     /* Icon */
     &:hover {
-      background: darken($midnight, 10%);
+      background: darken(#2c3e50, 10%);
     }
     &::after {
       content: "\276F";
@@ -62,7 +60,7 @@ input {
   &-content {
     max-height: 0;
     padding: 0 1em;
-    color: $midnight;
+    color: #2c3e50;
     background: white;
     transition: all .35s;
   }
@@ -71,10 +69,10 @@ input {
     justify-content: flex-end;
     padding: 1em;
     font-size: 0.75em;
-    background: $midnight;
+    background: #2c3e50;
     cursor: pointer;
     &:hover {
-      background: darken($midnight, 10%);
+      background: darken(#2c3e50, 10%);
     }
   }
 }
@@ -82,7 +80,7 @@ input {
 // :checked
 input:checked {
   + .tab-label {
-    background: darken($midnight, 10%);
+    background: darken(#2c3e50, 10%);
     &::after {
       transform: rotate(90deg);
     }
